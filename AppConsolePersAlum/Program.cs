@@ -4,22 +4,22 @@ namespace AppConsolePersAlum
 {
     class Program
     {
-        static void Main(string[] args)
+         static void Main(string[] args)
         {
-            Alumno al;
-            al = new Alumno();
+            Alumno ca;
+            ca = new Alumno();
             Console.WriteLine("Nombre completo");
-            al.Nombre = Console.ReadLine();
+            ca.Nombre = Console.ReadLine();
 
             Console.WriteLine("Fecha de nacimiento");
-            al.FechaNacimiento = Console.ReadLine();
+            ca.FechaNacimiento = Console.ReadLine();
 
             Console.WriteLine("Carrera que cursa");
-            al.Carrera = Console.ReadLine();
+            ca.Carrera = Console.ReadLine();
 
             Console.WriteLine("Matricula");
-            al.Matricula = Console.ReadLine();
-            Console.WriteLine(al.ToString());
+            ca.Matricula = Console.ReadLine();
+            Console.WriteLine(ca.ToString());
 
             Console.ReadKey();
         }
