@@ -5,11 +5,7 @@ using System.Text;
 namespace AppConsolePersAlum
 {
     class Persona
-    {
-        protected string nombre;
-
-        public string Nombre
-        {
+   {
             get 
             {
                 return nombre; 
