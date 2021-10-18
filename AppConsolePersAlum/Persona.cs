@@ -45,7 +45,7 @@ namespace AppConsolePersAlum
         }
             public override string ToString()
         {
-            return base.ToString() + " Nombre " + nombre + " " + " Fecha de nacimiento " + " " + fecha;
+            return" Nombre: " + nombre + " " + "\n Fecha de nacimiento: " + " " + fecha;
         }
     }
 }
