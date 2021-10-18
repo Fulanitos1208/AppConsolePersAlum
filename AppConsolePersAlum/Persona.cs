@@ -20,32 +20,32 @@ namespace AppConsolePersAlum
             }
         }
 
-        protected string fecha;
+        protected string fechaNacimiento;
 
-        public string Fecha
+        public string FechaNacimiento
         {
             get
             {
-                return fecha; 
+                return fechaNacimiento; 
             }
             set 
             {
-                fecha = value; 
+                fechaNacimiento = value; 
             }
         }
         public Persona()
         {
             nombre = " ";
-            fecha = " ";
+            fechaNacimiento = " ";
         }
-        public Persona(string nombre, string fecha)
+        public Persona(string nombre, string fechaNacimiento)
         {
             this.nombre = nombre;
-            this.fecha = fecha;
+            this.fechaNacimiento = fechaNacimiento;
         }
             public override string ToString()
         {
-            return" Nombre: " + nombre + " " + "\n Fecha de nacimiento: " + " " + fecha;
+            return" Nombre: " + nombre + " " + "\n Fecha de nacimiento: " + " " + fechaNacimiento;
         }
     }
 }
