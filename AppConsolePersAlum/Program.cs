@@ -14,13 +14,4 @@ namespace AppConsolePersAlum
         }
     }
 }
-// public string datosAlumno(Alumno a)
-//{
-  //  string datosAlumno = a.nombre;
-    //string datosAlumno1 = a.fecha;
-    //string datosAlumno2 = a.carrera;
-    //string datosAlumno3 = a.matricula;
-    //a = Console.WriteLine(a.nombre + a.fecha + a.carrera + a.matricula);
 
-    //return a;
-//}
