@@ -26,14 +26,14 @@ namespace AppConsolePersAlum
             carrera =" ";
             matricula = " ";
         }
-        public Alumno(string nombre, string fecha, string carrera, string matricula): base(nombre,fecha)
+        public Alumno(string nombre, string fechaNacimiento, string carrera, string matricula): base(nombre, fechaNacimiento)
         {
             this.carrera = carrera;
             this.matricula = matricula;
         }
         public override string ToString()
         {
-            return base.ToString() + " Carrera "+ carrera +" " + " Matricula " + " " + matricula;
+            return "Nombre del alumno:"+ nombre + "\nfecha de nacimientp" + fechaNacimiento + "\nCarrera "+ carrera +" " + "\nMatricula " + " " + matricula;
         }
     }
 }
